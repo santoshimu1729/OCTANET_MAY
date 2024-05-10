@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopo Joy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="src\Untitled (2) (1).png" width="200px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="src\Shopping-Cart-PNG-Clipart.png" width="30px" height="30px">
+        <img src="src\menu-icon-6.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout<br>A New Style!</h1>
+            <p>Success isn't always about greatness. It's about consistency.<br>
+            Consistent hard work gains success. Greatness 
+            will come.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="src\shopping-png-images-9.png">
+        </div>
+    </div>
+   </div>
+ </div>
+    
+ <!------- featured categories------->
+    <div class="categories">
+        <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="src\th (6).jpeg">
+            </div>
+            <div class="col-3">
+                <img src="src\th (7).jpeg">
+            </div>
+            <div class="col-3">
+                <img src="src\shoes-png-shoes-png-file-png-image-1180.png"> 
+            </div>
+        </div>
+       </div>
+    </div>
+<!------- featured product------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="src\bold-red-half-sleeve-t-shirt-men-s-plain-t-shirts-69875-1540210723 (1).webp">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\Socks-Transparent-Images-PNG.png">
+                <h4>Branded Socks</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\Watch-PNG-File.png">
+                <h4>Smart Watch</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\eng_pl_Mens-plain-t-shirt-S1323-light-blue-15421_1.jpg">
+                <h4>Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="src\94af522aa76d9fd94f7a7c9914c7aac863-mens-white-t-shirt.rsquare.w700.webp">
+                <h4>White Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\th (13).jpeg">
+                <h4>Pink High Heels</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\Fastrack-Economy-2013-Analog-White-Dial-Mens-Watch-NK3099SL01-1-1068x1497.webp">
+                <h4>Fastrack Watch</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\th (11).jpeg">
+                <h4>Sun Glasses</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="src\Cotton-Pant-PNG-Image-HD.png">
+                <h4>Black Jeans</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\Socks-PNG-Transparent-Image.png">
+                <h4>Branded Multicolor Socks</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\men-inner-vest-500x500.webp">
+                <h4>Men's InnerWear</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <img src="src\th (12).jpeg">
+                <h4>Stylish Black T-Shirt</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="src\61gscZYmaoL._SL1377_.jpg">
+                    <h4>Branded Smart Watch</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>$60.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="src\th (14).jpeg">
+                    <h4>Nike Sandals</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$55.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="src\istockphoto-172417586-612x612.jpg">
+                    <h4>Men's Formal Shoes</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>$45.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="src\men-s-night-pant.jpg">
+                    <h4>Men's Track Pant</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$38.00</p>
+                </div>
+            </div>
+        </div>
+<!--------- offer --------->
+     <div class="offer">
+         <div class="small-container">
+             <div class="row">
+                 <div class="col-2"></div>
+                     <img src="src\section04.png" class="offer-img">
+                 </div>
+                 <div class="col-2">
+                     <p>Exclusively Available On ShopoJoy</p>
+                     <h1>Smart Band 4</h1>
+                     <small>The Mi Smart Band 4 features a 39.9% larger 
+                     (than Mi Band3) AMOLED color full-touch display with
+                     adjustable brightness, so everything is clear as can 
+                     be.</small>
+                     <a href="" class="btn">Buy Now &#8594;</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+<!------ testimonial ------->
+     <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="bi bi-quote"></i>
+                    <P>ShopoJoy is the best platform where we can buy all kind of accessories, clothing and wearables.</P>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <img src="src\WhatsApp Image 2024-05-10 at 14.18.11_2c9e2202.png">
+                    <h3>Thotakura Vijaya Lakshmi</h3>
+                </div>
+                <div class="col-3">
+                    <i class="bi bi-quote"></i>
+                    <P>I have been purchasing products from ShopoJoy, all the products are of good quality and looking forward to buy many more.</P>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <img src="src\WhatsApp Image 2024-05-10 at 13.57.51_4eecd17b.png">
+                    <h3>Raavi Geethika</h3>
+                </div>
+                <div class="col-3">
+                    <i class="bi bi-quote"></i>
+                    <P>Firstly the name shopojoy itself is fab. I recently purchased a watch the unique feature of the watch is AI based complete monitoring on health condition.</P>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <img src="src\WhatsApp Image 2024-05-10 at 14.01.01_03e08902.jpg">
+                    <h3>Asodhi Bhavya Sri</h3>
+                </div>
+            </div>
+        </div>
+     </div>
+     
+<!--------- brands ---------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="src\Godrej_Logo (1).png">
+            </div>
+            <div class="col-5">
+                <img src="src\oppo-logo-png-oppo-logo-and-symbol-meaning-history-png-1920x1080.png">
+            </div>
+            <div class="col-5">
+                <img src="src\cocacola_logo_PNG11.png">
+            </div>
+            <div class="col-5">
+                <img src="src\paypal_PNG9.png">
+            </div>
+            <div class="col-5">
+                <img src="src\philips-logo-1.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------- footer --------->
+
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="src\google-play-png-11.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="src\shopsy-logo.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure &
+                Benefits o Sports Accessible to the Many. </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul> 
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul> 
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"`54>Copyright 2024 - Cheekurthi Sai Harshini</p>
+    </div>
+   </div>
+<!---------js for toggle menu---------->
+    <script>
+        var MenuItems = documnet.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                     MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                     MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+</body>
+</html>
